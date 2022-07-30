@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <div class="topnav">
+        <input type="text" placeholder="Search..">
+    </div>
+
+    <title>Samsung US | Mobile | TV | Home Electronics | Home Appliances | Samsung US</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="site-logo.jpg" />
+    <header class="l1">
+        <a href="https://www.samsung.com/us/"><img class="ha1" src="header1.jpg"></a>
+
+        Mobile
+        &nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+        TV &amp; Audio
+        &nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+        Appliances
+        &nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+        Computing
+        &nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+        Display
+        &nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+        #You Make
+        &nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+        Gift ideas
+    </header>
+
+</head>
+
+<body>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="tv.jpg" style="width:100%">
+            <div class="text">Save up to $500 on select Samsung Neo QLED 4K TVs, and enjoy spectacular color and
+                contrast as it’s meant to be seen</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="s1.jpg" style="width:100%">
+            <div class="text">"Your ideal home "Your ideal</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="s2.jpg" style="width:100%">
+            <div class="text">New Start. New tech. </div>
+        </div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+
+    <h1 class="h1">
+        <center>Shop our latest offers and innovations</center>
+    </h1>
+    <div class="d1">
+        <center>For You &nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp; Smart Phones And Wearables
+            &nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp; TVs &nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp; Appliances
+            &nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp; Tablet And comuting &nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp; For Business
+        </center>
+    </div>
+    <ul class="ul1">
+
+        <figure><img class="aks1" src="aks1.jpg">
+            <center>
+                <figcaption>Galaxy S22 Ultera,256GB </figcaption>
+            </center>
+        </figure>
+
+        <figure><img class="aks1" src="aks2.jpg">
+            <center>
+                <figcaption>55" Inch</figcaption>
+            </center>
+        </figure>
+        <figure><img class="aks1" src="aks3.jpg">
+            <center>
+                <figcaption> Galaxy A53,128GB</figcaption>
+            </center>
+        </figure>
+    </ul>
+
+    <ul class="ul1">
+
+        <figure><img class="aks1" src="aks4.jpg">
+            <center>
+                <figcaption> 85" NEO QLED 4K </figcaption>
+            </center>
+        </figure>
+
+        <figure><img class="aks1" src="aks5.jpg">
+            <center>
+                <figcaption>Galaxy S22+,256GB</figcaption>
+            </center>
+        </figure>
+        <figure><img class="aks1" src="aks6.jpg">
+            <center>
+                <figcaption>Galaxy Tab s8 Ultera, 128GB</figcaption>
+            </center>
+        </figure>
+    </ul>
+
+    <h1 class="h1">
+        <center>Mobile & Computing</center>
+    </h1>
+    <div>
+        <center>Galaxy Tab s8 Ultera
+            &nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+            Galaxy Book2 Pro 360
+            &nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;
+            Certified Re-Newed</center>
+    </div>
+    <CENTER><img class="aks7" src="aks7.jpg"></CENTER>
+</body>
+
+
+</html>
